@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.App{
+    text-align: center;
+    font-size: 13px;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.Navbar{
+    text-align: left;
+    margin : 20px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+    padding: 15px;
+    background-color:peachpuff;
+   
+    
+}
+.hometext{
+
+    text-align: center;
+    color: darkblue;
+    font-size: 20px;
+    font-variant: small-caps;
+    /* margin: auto; */
+    margin-top: 10% ;
+   
+}
+.button{
+    background-color: blue;
+    color: white;
+    border-radius: 0.2rem;
+    padding: 0.5rem; 
+    text-decoration: none;
+    box-shadow   : 0.1cm 0.1cm grey;
+    cursor: pointer;    
+    margin-top:40px;
+    font-variant: small-caps;
+
+}
+.btn-1,
+.btn-2{
+    display: inline-block;  
+}
+
+
+/* .form{
+    text-align: center;
+} */
+/* .addcomp{
+    
+    height: 100%;
+    width: 100%;
+} */
+.form-grp{
+
+    margin: 20px;
+
+    
+}
+.input-field{
+    width: 20%;
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 0.1rem;
+    box-shadow:  0.3rem 0.2rem grey;
+}
+.table{
+    font-size: 20px;
+    padding: 2px;
+    margin-top: 15px;
+    margin-left: 20%;
+    text-align: center;
+    font-variant: small-caps ;
+    border-color: blue ;
+    /* border-width: 0cm; */
+    border-style:hidden;
+        
+}
+.table th{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    width: 20%;
+}
+
+.table tbody .button{
+    margin: 10px;
+
+}
